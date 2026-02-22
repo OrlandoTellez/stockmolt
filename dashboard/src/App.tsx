@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import "./App.css";
+import { DashboardLayout } from "./components/layout/DashboardLayout";
 
 function App() {
   return (
     <>
-      <div>
+      <DashboardLayout>
         <Outlet />
-      </div>
+      </DashboardLayout>
     </>
   );
 }
