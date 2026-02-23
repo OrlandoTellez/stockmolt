@@ -9,11 +9,12 @@
   font-size: 24px;
   font-weight: bold;
   margin: 0;
+  color: var(--font-color-title);
 }
 
 .header p {
   margin-top: 4px;
-  color: #64748b;
+  color: var(--font-color-text);
 }
 
 .metricsGrid {

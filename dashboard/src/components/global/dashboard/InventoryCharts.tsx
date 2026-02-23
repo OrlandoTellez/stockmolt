@@ -43,7 +43,11 @@ export function InventoryCharts() {
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="entradas" fill="#22c55e" radius={[4, 4, 0, 0]} />
+              <Bar
+                dataKey="entradas"
+                fill="var(--secondary-color)"
+                radius={[4, 4, 0, 0]}
+              />
               <Bar dataKey="salidas" fill="#94a3b8" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
@@ -62,7 +66,7 @@ export function InventoryCharts() {
               <Line
                 type="monotone"
                 dataKey="stock"
-                stroke="#22c55e"
+                stroke="var(--secondary-color)"
                 strokeWidth={3}
                 dot={{ r: 4 }}
               />

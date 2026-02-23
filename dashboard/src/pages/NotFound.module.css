@@ -14,15 +14,17 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: var(--font-color-title);
 }
 
 .subtitle {
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  color: var(--font-color-text);
 }
 
 .link {
-  color: #3b82f6;
+  color: var(--secondary-color);
   text-decoration: underline;
   transition: opacity 0.2s ease;
 }

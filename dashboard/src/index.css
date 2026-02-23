@@ -5,19 +5,19 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #020617;
-  --secondary-color: #df8052;
-  --third-color: #f9fafb;
+  --primary-color: #000000;
+  --secondary-color: #12a687;
+  --third-color: #000000;
   --four-color: #25211d;
-  --card-color: #ffffff;
+  --card-color: #0a0a0a;
   --altern-color: #332516;
   --altern-secondary-color: #5a3315;
 
   --window-color: #292420;
   --preview-color: #171412;
   --font-color-title: #ffffff;
-  --font-color-text: #cbd5e1;
-  --border-color: #e0e5eb;
+  --font-color-text: #a1a1a1;
+  --border-color: #1f1f1f;
 }
 
 [data-theme="light"] {

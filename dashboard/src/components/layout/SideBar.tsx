@@ -24,7 +24,7 @@ export const SideBar = () => {
 
           {!collapsed && (
             <div className={styles.logoText}>
-              <h1>StockPro</h1>
+              <h1>StockMolt</h1>
               <p>Inventario Inteligente</p>
             </div>
           )}
