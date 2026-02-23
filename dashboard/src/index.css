@@ -5,11 +5,11 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #17202b;
+  --primary-color: #020617;
   --secondary-color: #df8052;
-  --third-color: #36281f;
+  --third-color: #f9fafb;
   --four-color: #25211d;
-  --card-color: #231f1a;
+  --card-color: #ffffff;
   --altern-color: #332516;
   --altern-secondary-color: #5a3315;
 
@@ -17,7 +17,7 @@
   --preview-color: #171412;
   --font-color-title: #ffffff;
   --font-color-text: #cbd5e1;
-  --border-color: #3f3831;
+  --border-color: #e0e5eb;
 }
 
 [data-theme="light"] {
