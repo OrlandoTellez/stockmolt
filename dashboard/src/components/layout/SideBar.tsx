@@ -1,11 +1,11 @@
-import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Box } from "lucide-react";
 import { navItems } from "@/routes/NavItems";
 import styles from "./SideBar.module.css";
+import { useSideBarStore } from "@/store/sideBarStore";
 
 export const SideBar = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const { collapsed, setCollapsed } = useSideBarStore();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -51,10 +51,7 @@ export const SideBar = () => {
 
         {/* Collapse Button */}
         <div className={styles.collapseContainer}>
-          <button
-            onClick={() => setCollapsed(!collapsed)}
-            className={styles.collapseButton}
-          >
+          <button onClick={setCollapsed} className={styles.collapseButton}>
             {collapsed ? (
               <ChevronRight className={styles.icon} />
             ) : (
