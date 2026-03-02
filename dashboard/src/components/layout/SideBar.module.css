@@ -46,7 +46,7 @@
 .logoText h1 {
   font-size: 16px;
   margin: 0;
-  color: white;
+  color: var(--font-color-title);
 }
 
 .logoText p {

@@ -21,20 +21,22 @@
 }
 
 [data-theme="light"] {
-  --primary-color: #17202b;
-  --secondary-color: #df8052;
-  --third-color: #f2e4d9;
-  --four-color: #f4f2ec;
-  --card-color: #f7f4ed;
-  --altern-color: #f7ebda;
-  --altern-secondary-color: #f7d1b2;
+  --primary-color: #ffffff;
+  --secondary-color: #12a687;
+  --third-color: #ffffff;
+  --four-color: #f6f7f9;
 
-  --window-color: #f1eee6;
-  --preview-color: #f6f4ee;
+  --card-color: #ffffff;
+  --window-color: #f1f3f5;
+  --preview-color: #fafbfc;
 
-  --font-color-title: #38332e;
-  --font-color-text: #7e7367;
-  --border-color: #e0dad1;
+  --altern-color: #f1f3f5;
+  --altern-secondary-color: #e9ecef;
+
+  --font-color-title: #1f2933;
+  --font-color-text: #495057;
+
+  --border-color: #dee2e6;
 }
 
 * {
