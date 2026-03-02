@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import App from "@/App";
 import Dashboard from "@/pages/Dashboard";
 import { NotFound } from "@/pages/NotFound";
+import Products from "@/pages/Products";
 
 export const AppRoutes = () => {
   return (
@@ -9,6 +10,7 @@ export const AppRoutes = () => {
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/products" element={<Products />} />
 
           <Route path="*" element={<NotFound />} />
         </Route>
