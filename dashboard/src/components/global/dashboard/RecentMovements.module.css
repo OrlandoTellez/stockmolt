@@ -3,7 +3,6 @@
   border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 20px;
-  animation: slideUp 0.3s ease;
 }
 
 .title {
@@ -27,7 +26,6 @@
   background: rgba(148, 163, 184, 0.05);
   border: 1px solid var(--border-color);
   color: var(--font-color-title);
-  transition: background 0.2s ease;
 }
 
 .item:hover {
@@ -103,15 +101,4 @@
 .badgeNegative {
   background: rgba(245, 158, 11, 0.15);
   color: #f59e0b;
-}
-
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
